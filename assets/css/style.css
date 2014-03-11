@@ -1,0 +1,127 @@
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f6f6f6;
+	font-size: 16px;
+}
+
+p {
+	margin: 5px 0;
+	font-size: 1em;
+}
+
+.wrap {
+	margin: 0 auto;
+	width: 900px;
+}
+
+
+.link {
+	color: #1b88d4;
+	text-decoration: none;
+	font-size: 0.875em;
+	line-height: 1.5;
+}
+
+.link:hover { border-bottom: 1px solid #1b88d4; }
+
+
+.l-box-module {
+	margin: 10px 0;
+	padding: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background: #ffffff;
+}
+
+
+.list-form--login {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+}
+
+.list-form--login li {
+	display: inline-block;
+	font-size: 14px;
+}
+
+.input-text {
+	width: 100%;
+	display: inline-block;
+	border: 1px solid #939393;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.list-form--login li:nth-child(1) {width: 45%; margin-right: 2.5%;}
+
+
+
+.list-form--login li:nth-child(2) {width: 30%; margin-right: 2.5%;}
+.button-submit {
+	display: inline-block;
+	border: 0;
+	padding: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+
+.list-form--login li:nth-child(3) {width: 20%;}
+.button-submit--login {
+	width: 100%;
+	background: #7dc005;
+	color: #ffffff;
+}
+
+
+
+/* *************************************
+*
+*   Media Queries
+*   -> Styles for small resolutions
+*
+* ************************************* */
+
+
+@media (min-width: 581px) and (max-width: 920px) {
+
+}
+
+
+@media (max-width: 920px) {
+	.wrap {
+		width: 98%;
+	}
+
+	.l-box-module {
+		padding: 1.8%;
+	}
+
+	.m-button {
+		display: inline-block;
+		padding: 5px 8px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		background: #1b88d4;
+		color: #ffffff;
+		vertical-align: middle;
+	}
+	.m-button:hover {
+		border: 0;
+	}
+}
