@@ -92,7 +92,6 @@ p {
 
 
 .l-modal {
-	display: none;
 	position: fixed;
 	background: rgba(0,0,0,0.8);
 	width: 100%;
