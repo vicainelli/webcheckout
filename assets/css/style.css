@@ -92,6 +92,7 @@ p {
 
 
 .l-modal {
+	display: none;
 	position: fixed;
 	background: rgba(0,0,0,0.8);
 	width: 100%;
@@ -103,8 +104,9 @@ p {
 
 .l-modal--content {
 	background: #ffffff;
-	padding: 3%;
-	margin: 8%;
+	width: 600px;
+	margin: 6% auto;
+	padding: 20px;
 }
 
 /* *************************************
@@ -142,4 +144,15 @@ p {
 	.m-button:hover {
 		border: 0;
 	}
+
+.l-modal--content {
+	width: auto;
+	padding: 3%;
+	margin: 8%;
+}
+
+.is-mobile {
+	display: none;
+}
+
 }
