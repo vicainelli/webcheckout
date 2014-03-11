@@ -10,8 +10,9 @@ body {
 }
 
 p {
-	margin: 5px 0;
+	margin: 0.5em 0;
 	font-size: 1em;
+	line-height: 1.5;
 }
 
 .wrap {
@@ -74,6 +75,7 @@ p {
 	display: inline-block;
 	border: 0;
 	padding: 10px;
+	line-height: 1.5;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
@@ -82,12 +84,28 @@ p {
 
 .list-form--login li:nth-child(3) {width: 20%;}
 .button-submit--login {
+	text-transform: uppercase;
 	width: 100%;
 	background: #7dc005;
 	color: #ffffff;
 }
 
 
+.l-modal {
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	top: 0;
+}
+
+
+.l-modal--content {
+	background: #ffffff;
+	padding: 3%;
+	margin: 8%;
+}
 
 /* *************************************
 *
